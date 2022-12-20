@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header><button id="but-sobre" onclick="sobre()">SOBRE</button><button id="but-contato" onclick="contato()">CONTATO</button></header>
+
+    <div id="tituloCentral">
+    <div id="titulos">
+    <h1>Projetos Front-End</h1>
+    <h2>SEO, CSS3, HTML5, JAVA SCRIPT</h2>
+    </div>
+    </div>
+    <main>
+        <article>
+           <section>
+            <h3>Cep-Busque | Seu Site de Buscas</h3>
+            <div><img src="./images/siteCEP (2).jpg" alt="" width="500px" height="390px" onclick="cepbusque()" style="cursor: pointer;"></div>
+            <li>Java Script | HTML5 | CSS3</li>
+            <li>SEO</li>
+           </section>
+
+           <section>
+            <h3>Nubank | Sistema de RH</h3>
+            <div><img src="./images/nubank.jpg" alt="" width="500px" height="390px"></div>
+            <li>Java Script | HTML5 | CSS3</li>
+           </section>
+
+           <section>
+            <h3>CVC | Sistema de Cadastro</h3>
+            <div><img src="./images/cvc.jpg" alt="" width="500px" height="390px"></div>
+            <li>Java Script | HTML5 | CSS3</li>
+           </section>
+
+           <section>
+            <h3>Óticas's Brasil</h3>
+            <div><img src="./images/siteOculos.jpg" alt="" width="500px" height="390px"></div>
+            <li>Java Script | HTML5 | CSS3</li>
+           </section>
+        </article>
+        
+        <section>
+            <div id="div-eu"><img src="./images/eu.jpeg" alt="" width="300px" height="250px" id="fotomy"></div>
+            <div id="texto-foto">
+                <h4>Isaque Esdras, desenvolvedor Front-End Júnior</h4>
+            </div>
+            <li>Estudante de Análise e Desenvolvimento de Sistemas</li>
+            <li>Faculdade: UNIFACS - Universidade Salvador</li>
+            <li>Buscando a Primeira Experiência na Área</li>
+            <li>Métodos: Java Script, HTML5, CSS3, SEO</li>
+            <li>Idade: 24 anos</li>
+
+            <div id="contato">
+                <h4>CONTATO:</h4>
+                <button onclick="whatsapp()" id="whats">WhatsApp</button> <button onclick="linkedin()" id="linkedin">Linkedin</button>
+            </div>
+            <div id="meio-de-contato"> 
+                
+            </div>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
