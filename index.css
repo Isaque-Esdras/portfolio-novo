@@ -51,6 +51,7 @@ h4{
 li{
     font-size: 18pt;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
 }
 
 
@@ -166,6 +167,10 @@ span{
     padding: 30px;
     margin-top: 20px;
     color: white;
+}
+
+#sec-contato{
+    border-top: 3px solid orange;
 }
 
 @media screen and (max-width:680px) {

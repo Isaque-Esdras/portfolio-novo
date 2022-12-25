@@ -33,3 +33,11 @@ oculossite = () =>{
 wpbarbeariavini = () =>{
     window.location.href = './wpbarbeariaum.html'
 }
+
+playermusic = () =>{
+    window.location.href = './playerdemusica.html'
+}
+
+primeiroportfolio = () =>{
+    window.location.href = './primerport.html'
+}
